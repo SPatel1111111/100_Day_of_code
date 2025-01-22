@@ -1,4 +1,5 @@
-from turtle import Screen, Turtle
+#Udemy day22
+from turtle import Screen
 from paddle import Paddle
 from ball import Ball
 from scoreboard import ScoreBoard
@@ -14,27 +15,6 @@ r_paddle = Paddle((350, 0))
 l_paddle = Paddle((-350, 0))
 ball = Ball()
 scoreboard = ScoreBoard()
-
-
-# def r_paddle_move(x, y):
-#     # r_paddle.goto(r_paddle.xcor(), y)
-#     if y > r_paddle.ycor():
-#         r_paddle.go_up()
-#     else:
-#         r_paddle.go_down()
-#
-#
-# def l_paddle_move(x, y):
-#     # l_paddle.goto(l_paddle.xcor(), y)
-#     if y > l_paddle.ycor():
-#         l_paddle.go_up()
-#     else:
-#         l_paddle.go_down()
-
-
-# screen.listen()
-# screen.onclick(l_paddle_move, btn=1)
-# screen.onclick(r_paddle_move, btn=3)
 
 screen.listen()
 screen.onkeypress(r_paddle.go_up, "Up")
