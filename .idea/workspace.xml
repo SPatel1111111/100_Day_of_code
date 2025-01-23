@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9693ea89-e876-452d-9934-209dcaa98b15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/22_1_DAY_14/Turtle_Crossing_Game/car_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22_1_DAY_14/Turtle_Crossing_Game/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22_1_DAY_14/Turtle_Crossing_Game/player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22_1_DAY_14/Turtle_Crossing_Game/scoreboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22_1_DAY_14/basic14.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22_1_DAY_14/mail_merge/input/Letters/starting_letter.docs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22_1_DAY_14/mail_merge/input/Names/invited_name.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22_1_DAY_14/mail_merge/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22_1_DAY_14/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23_1_DAY_15/basic15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23_1_DAY_15/day25.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23_1_DAY_15/mail/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23_1_DAY_15/mail/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23_1_DAY_15/my.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23_1_DAY_15/not15.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21_1_DAY_13/Pong_Game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/21_1_DAY_13/Pong_Game/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +57,7 @@
     "Python.basic1.executor": "Run",
     "Python.basic10.executor": "Run",
     "Python.basic14.executor": "Run",
+    "Python.basic15.executor": "Run",
     "Python.basic2.executor": "Run",
     "Python.basic3.executor": "Run",
     "Python.basic4.executor": "Run",
@@ -74,6 +70,7 @@
     "Python.day19.executor": "Run",
     "Python.day2.executor": "Run",
     "Python.day21.executor": "Run",
+    "Python.day25.executor": "Run",
     "Python.day4.executor": "Run",
     "Python.day5.executor": "Run",
     "Python.day7.executor": "Run",
@@ -115,9 +112,11 @@
       <recent name="D:\SNEHA1\100_Day_of_code\21_1_DAY_13" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SNEHA1\100_Day_of_code\23_1_DAY_15" />
+      <recent name="D:\SNEHA1\100_Day_of_code\ga" />
+      <recent name="D:\SNEHA1\100_Day_of_code\22_1_DAY_14" />
+      <recent name="D:\SNEHA1\100_Day_of_code\23_1_DAY_15\mail" />
       <recent name="D:\SNEHA1\100_Day_of_code\22_1_DAY_14\mail_merge\input\Letters" />
-      <recent name="D:\SNEHA1\100_Day_of_code\21_1_DAY_13" />
-      <recent name="D:\SNEHA1\100_Day_of_code\16_1_DAY_10" />
     </key>
   </component>
   <component name="RunManager">
@@ -243,6 +242,10 @@
           <url>file://$PROJECT_DIR$/DAY_6/UNITS/unit2.py</url>
           <line>28</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/23_1_DAY_15/mail/test.py</url>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
