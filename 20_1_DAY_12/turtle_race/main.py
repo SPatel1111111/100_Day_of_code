@@ -10,13 +10,13 @@ user_bet = screen.textinput(title="Make your Bet",
 
 y_position = [-140, -110, -80, -50, -20, 20, 50, 80, 110, 140]
 all_turtle = []
-def my():
-    for turtle_count in range(0, 10):
-        tim = Turtle(shape="turtle")
-        tim.penup()
-        tim.color(colors[turtle_count])
-        tim.goto(x=-240, y=y_position[turtle_count])
-        all_turtle.append(tim)
+
+for turtle_count in range(0, 10):
+    tim = Turtle(shape="turtle")
+    tim.penup()
+    tim.color(colors[turtle_count])
+    tim.goto(x=-240, y=y_position[turtle_count])
+    all_turtle.append(tim)
 
 global is_race_on
 # is_race_on =False
@@ -29,7 +29,6 @@ else:
 
 
 while is_race_on:
-    my()
     for tur in range(len(all_turtle)):
         # 250 - (40/2) =230
         if all_turtle[tur].xcor() > 230:

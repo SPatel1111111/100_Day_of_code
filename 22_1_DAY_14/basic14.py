@@ -80,6 +80,7 @@
 #
 #
 # import json
+#
 # x ={
 #     "name":"dfgse",
 #     "age":34,
@@ -91,7 +92,7 @@
 #         { "name":"car2","model":"model2"}
 #     ]
 # }
-# r2 =json.dumps(x)
+# r2=json.dumps(x)
 # r1 =json.dumps(x,indent=4)
 # r0 =json.dumps(x,indent=4,separators=(".","="))
 # r3 =json.dumps(x,indent=4,sort_keys=True)
@@ -99,4 +100,4 @@
 # print(r2)
 # print(r0)
 # print(r3)
-
+#

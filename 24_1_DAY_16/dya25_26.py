@@ -1,5 +1,5 @@
-# import pandas as pd
-#
+import pandas as pd
+
 # df = pd.read_csv("D:/SNEHA1/100_Day_of_code/23_1_DAY_15/weather_data.csv")
 # print(df)
 # # print(type(df))
@@ -7,7 +7,7 @@
 
 # data_dict=df.to_dict()
 # print(data_dict)
-#
+
 # day_list=df["day"].to_list()
 # print(day_list)
 #
@@ -35,7 +35,7 @@
 # f=(monday.temp[0] * (9/5))+ 32
 # print(f)
 
-#creating dataframe
+# creating dataframe
 #
 # dict1 ={
 #     "name":["fAZF","sdfgtzst","etawe","sdtgzs"],
@@ -43,8 +43,8 @@
 # }
 #
 # data=pd.DataFrame(dict1)
+# print(data)
 # data.to_csv("new.csv")
-#
 
 
 # import pandas as pd
@@ -68,8 +68,8 @@
 # print(data)
 # # data.to_csv("squirrel.csv")
 
-#udemy day26
-#list comprehension
+# udemy day26
+# list comprehension
 # list1=[1,2,3]
 # list2=[]
 # for i in list1:
@@ -84,37 +84,40 @@
 # list2=[i for i in name]
 # print(list2)
 
-#conditional list comprehension
+# conditional list comprehension
 # list1 =['tfzst','etAE','dtSET','sdgz']
 # list2=[n for n in list1 if len(n)<5]
 # print(list2)
 
-#dictonary comprehension
-import random
-import pandas as pd
-names=["rzsery","rysery","etga","serdghasz","ryhzs"]
-
-student_dic ={i:random.randint(1,100) for i in names}
-print(student_dic)
-
+# dictonary comprehension
+# import random
+# names=["rzsery","rysery","etga","serdghasz","ryhzs"]
+#
+# student_dic ={i:random.randint(1,100) for i in names}
+# print(student_dic)
+#
 # pass_student = {student:score for (student,score) in student_dic.items() if score > 50}
 # print(pass_student)
 
-#dictionary
-
-dict1={
-    "student":["tegt","dtgzse"],
-       "marks":[22,45]
-       }
-
-
-data = pd.DataFrame(dict1)
-print(data)
-
-#loop through dataframe
-for (key,value) in data.items():
-    print(value)
-
-#loop through row
-for (index,row) in data.iterrows():
-    print(index)
+# dictionary
+#
+# dict1={
+#     "student":["tegt","dtgzse"],
+#        "marks":[22,45]
+#        }
+#
+#
+# data = pd.DataFrame(dict1)
+# print(data)
+#
+# #loop through dataframe
+# for (key,value) in data.items():
+#     print(value)
+#
+# #loop through row
+# for (index,row) in data.iterrows():
+#     print(index)
+#
+# for (index,row) in data.iterrows():
+#     if row.student == "tegt":
+#         print(row.marks)
