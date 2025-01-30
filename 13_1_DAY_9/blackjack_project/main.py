@@ -36,7 +36,7 @@ def game_1():
     computer_cards = []
     computer_score = -1
     user_score = -1
-    is_over =   False
+    is_over = False
 
     for _ in range(2):
         user_cards.append(choose())

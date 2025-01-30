@@ -1,9 +1,8 @@
 import tkinter
-
-window = tkinter.Tk()
-window.title("FIRST TKINTER")
-window.minsize(500, 300)
-window.config(padx=100, pady=50)
+win = tkinter.Tk()
+win.title("FIRST TKINTER")
+win.minsize(500, 300)
+win.config(padx=100, pady=50)
 
 # label widget
 tk_lable = tkinter.Label(text="hello world", font="arial")
@@ -36,7 +35,7 @@ button.grid(column =3,row=2)
 button2=tkinter.Button(text="click here.")
 button2.grid(column=2,row=0)
 
-window.mainloop()
+win.mainloop()
 
 # other widget like below.
 # text widget
