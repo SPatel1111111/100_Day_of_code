@@ -8,21 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9693ea89-e876-452d-9934-209dcaa98b15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/28_1_DAY_18/day2829.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/28_1_DAY_18/password_manager/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/29_1_DAY_19/day30.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/29_1_DAY_19/test/Blackjack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/29_1_DAY_19/test/coffe_machine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/30_1_DAY_20/flash_card_project/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/30_1_DAY_20/test/b_j.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/30_1_DAY_20/test/c_m_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/31_1_DAY_21/SMTP/birthday_wishes/birthdays.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/31_1_DAY_21/SMTP/birthday_wishes/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/31_1_DAY_21/SMTP/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/31_1_DAY_21/SMTP/smtp_mail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/31_1_DAY_21/day32.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/31_1_DAY_21/day33.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_1_DAY_9/blackjack_project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/13_1_DAY_9/blackjack_project/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24_1_DAY_16/NATO-alphabet-start/NATO-alphabet-start/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_1_DAY_16/NATO-alphabet/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24_1_DAY_16/NATO-alphabet-start/NATO-alphabet-start/nato_phonetic_alphabet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/24_1_DAY_16/NATO-alphabet/nato_phonetic_alphabet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/27_1_DAY_17/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/27_1_DAY_17/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/27_1_DAY_17/mile_to_kilo_coverter/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/27_1_DAY_17/mile_to_kilo_coverter/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,84 +48,86 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.DAY6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Menu.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Money_machine.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Other_Tkinter_Widgets.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Python Console.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TEST5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.answers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.b_j.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ball.executor&quot;: &quot;Run&quot;,
-    &quot;Python.basic1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.basic10.executor&quot;: &quot;Run&quot;,
-    &quot;Python.basic14.executor&quot;: &quot;Run&quot;,
-    &quot;Python.basic15.executor&quot;: &quot;Run&quot;,
-    &quot;Python.basic2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.basic3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.basic4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.basic5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.basic6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.basic7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.c_m_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cipher.executor&quot;: &quot;Run&quot;,
-    &quot;Python.coffe_machine.executor&quot;: &quot;Run&quot;,
-    &quot;Python.coffee_maker.executor&quot;: &quot;Run&quot;,
-    &quot;Python.day18.executor&quot;: &quot;Run&quot;,
-    &quot;Python.day19.executor&quot;: &quot;Run&quot;,
-    &quot;Python.day2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.day21.executor&quot;: &quot;Run&quot;,
-    &quot;Python.day25.executor&quot;: &quot;Run&quot;,
-    &quot;Python.day27.executor&quot;: &quot;Run&quot;,
-    &quot;Python.day30.executor&quot;: &quot;Run&quot;,
-    &quot;Python.day4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.day5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.day7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dya25.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dya25_26.executor&quot;: &quot;Run&quot;,
-    &quot;Python.food.executor&quot;: &quot;Run&quot;,
-    &quot;Python.game.executor&quot;: &quot;Run&quot;,
-    &quot;Python.game_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lovcal.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.menu.executor&quot;: &quot;Run&quot;,
-    &quot;Python.paddle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pass_gen_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.player.executor&quot;: &quot;Run&quot;,
-    &quot;Python.practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.quiz_brain.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scoreboard.executor&quot;: &quot;Run&quot;,
-    &quot;Python.snake.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.turtle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.turtle1.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.udemy16.executor&quot;: &quot;Run&quot;,
-    &quot;Python.udemy16_17.executor&quot;: &quot;Run&quot;,
-    &quot;Python.unit1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.unit2.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.unit3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.widgets.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/SNEHA1/100_Day_of_code/29_1_DAY_19&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.3058104&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.DAY6.executor": "Run",
+    "Python.Menu.executor": "Run",
+    "Python.Money_machine.executor": "Run",
+    "Python.Other_Tkinter_Widgets.executor": "Run",
+    "Python.Python Console.executor": "Run",
+    "Python.TEST5.executor": "Run",
+    "Python.answers.executor": "Run",
+    "Python.b_j.executor": "Run",
+    "Python.ball.executor": "Run",
+    "Python.basic1.executor": "Run",
+    "Python.basic10.executor": "Run",
+    "Python.basic14.executor": "Run",
+    "Python.basic15.executor": "Run",
+    "Python.basic2.executor": "Run",
+    "Python.basic3.executor": "Run",
+    "Python.basic4.executor": "Run",
+    "Python.basic5.executor": "Run",
+    "Python.basic6.executor": "Run",
+    "Python.basic7.executor": "Run",
+    "Python.c_m_2.executor": "Run",
+    "Python.cipher.executor": "Run",
+    "Python.coffe_machine.executor": "Run",
+    "Python.coffee_maker.executor": "Run",
+    "Python.day18.executor": "Run",
+    "Python.day19.executor": "Run",
+    "Python.day2.executor": "Run",
+    "Python.day21.executor": "Run",
+    "Python.day25.executor": "Run",
+    "Python.day27.executor": "Run",
+    "Python.day30.executor": "Run",
+    "Python.day33.executor": "Run",
+    "Python.day4.executor": "Run",
+    "Python.day5.executor": "Run",
+    "Python.day7.executor": "Run",
+    "Python.dya25.executor": "Run",
+    "Python.dya25_26.executor": "Run",
+    "Python.food.executor": "Run",
+    "Python.game.executor": "Run",
+    "Python.game_data.executor": "Run",
+    "Python.lovcal.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.main2.executor": "Run",
+    "Python.main3.executor": "Run",
+    "Python.main4.executor": "Run",
+    "Python.menu.executor": "Run",
+    "Python.paddle.executor": "Run",
+    "Python.pass_gen_2.executor": "Run",
+    "Python.player.executor": "Run",
+    "Python.practice.executor": "Run",
+    "Python.quiz_brain.executor": "Run",
+    "Python.scoreboard.executor": "Run",
+    "Python.snake.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.turtle.executor": "Run",
+    "Python.turtle1.executor": "Debug",
+    "Python.udemy16.executor": "Run",
+    "Python.udemy16_17.executor": "Run",
+    "Python.unit1.executor": "Run",
+    "Python.unit2.executor": "Debug",
+    "Python.unit3.executor": "Run",
+    "Python.widgets.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/SNEHA1/100_Day_of_code/30_1_DAY_20/test",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.splitter.proportion": "0.3058104"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;Python&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SNEHA1\100_Day_of_code\30_1_DAY_20\test" />
       <recent name="D:\SNEHA1\100_Day_of_code\29_1_DAY_19" />
       <recent name="D:\SNEHA1\100_Day_of_code\24_1_DAY_16" />
       <recent name="D:\SNEHA1\100_Day_of_code\21_1_DAY_13" />
@@ -259,8 +253,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.answers" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.answers" />
         <item itemvalue="Python.day19" />
         <item itemvalue="Python.cipher" />
         <item itemvalue="Python.Python Console" />
