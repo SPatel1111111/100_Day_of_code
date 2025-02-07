@@ -1,0 +1,61 @@
+If you're not familiar with React or Vue.js and prefer to stick with technologies you're comfortable with, you can still build a robust virtual study group application using simpler frontend technologies. Here’s an updated implementation stack that avoids using modern JavaScript frameworks like React or Vue.js:
+
+### Frontend
+1. **HTML/CSS**: For structuring and styling your web pages. Use semantic HTML for better accessibility.
+2. **JavaScript**: Use vanilla JavaScript for interactivity. You can also use jQuery for easier DOM manipulation and AJAX calls if you prefer.
+3. **Bootstrap**: For responsive design and pre-built UI components, which will help you create a visually appealing layout without extensive CSS knowledge.
+4. **Video Conferencing**:
+   - **WebRTC**: For peer-to-peer video communication if you want to implement it yourself.
+   - **Third-Party API**: Consider using **Twilio Video**, **Zoom API**, or **Jitsi Meet** for easier integration and additional features.
+
+### Backend
+1. **Flask**: A lightweight web framework for building the application.
+2. **Flask-SQLAlchemy**: For ORM (Object-Relational Mapping) to interact with the database.
+3. **Flask-Migrate**: For handling database migrations.
+4. **Flask-Login**: For user authentication and session management.
+5. **Flask-SocketIO**: For real-time communication (e.g., chat features, signaling for WebRTC).
+6. **File Uploads**: Use **Flask-Uploads** or **Flask-Dropzone** for handling file uploads.
+
+### Database
+1. **SQLite**: For development due to its simplicity.
+2. **PostgreSQL**: For production, as it offers better scalability and performance.
+
+### Real-time Features
+- **Flask-SocketIO**: To enable real-time features like chat and signaling for video calls.
+
+### Deployment
+1. **Heroku**: For easy deployment and scaling, especially if you're just starting out.
+2. **DigitalOcean**: For more control over the server environment, especially if you expect higher traffic.
+3. **Docker (Optional)**: To containerize your application, making it easier to manage dependencies and deploy consistently across environments.
+
+### Version Control
+- **Git**: For version control to track changes in your codebase and collaborate with others.
+
+### Testing
+- **pytest**: A testing framework for Python to write unit tests and ensure code reliability.
+
+### Documentation
+- **Markdown** or **Sphinx**: For documenting your code and providing user guides.
+
+### Example Implementation Stack Summary
+- **Frontend**: HTML/CSS, JavaScript (vanilla or jQuery), Bootstrap, WebRTC or a third-party video API.
+- **Backend**: Flask, Flask-SQLAlchemy, Flask-Migrate, Flask-Login, Flask-SocketIO.
+- **Database**: SQLite (development) / PostgreSQL (production).
+- **Deployment**: Heroku or DigitalOcean, with optional Docker for containerization.
+- **Version Control**: Git.
+- **Testing**: pytest.
+- **Documentation**: Markdown or Sphinx.
+
+This stack allows you to build your virtual study group application without the need for modern JavaScript frameworks, while still providing the necessary features for user interaction, collaboration, and real-time communication. You can focus on using technologies you are comfortable with, ensuring a smoother development process.
+
+ {% for blog in posts: %}
+                                {% if blog["id"]==3: %}
+                                    <h3>{{ blog["body"] }}</h3>
+                                {% endif %}
+                                {% if blog["id"]==2: %}
+                                    <h3>{{ blog["body"] }}</h3>
+                                {% endif %}
+                                {% if blog["id"]==1: %}
+                                    <h3>{{ blog["body"] }}</h3>
+                                {% endif %}
+                        {% endfor %}
