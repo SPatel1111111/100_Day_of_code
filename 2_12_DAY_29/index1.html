@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index1</title>
+</head>
+<body>
+   <h1> this index1 file.name:{{t_name}}</h1>
+   <h2>email:{{t_email}}</h2>
+   <h3> even numbers:</h3>
+   {% for i in even %}
+     {% if i % 2 == 0 %}
+          {{i}}
+     {% endif %}
+   {% endfor %}
+</body>
+</html>
