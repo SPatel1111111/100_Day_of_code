@@ -68,7 +68,6 @@ def add_cafe():
         return redirect(url_for('cafes'))
     return render_template('add.html', form=form)
 
-
 @app.route('/cafes')
 def cafes():
     with open('cafe-data.csv', newline='', encoding='utf-8') as csv_file:

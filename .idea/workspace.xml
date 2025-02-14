@@ -8,13 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9693ea89-e876-452d-9934-209dcaa98b15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2_13_DAY_30/day-62-starting-files-coffee-and-wifi/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_14_DAY_31/day31.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_13_DAY_30/day-62-starting-files-coffee-and-wifi/cafe-data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/2_13_DAY_30/day-62-starting-files-coffee-and-wifi/cafe-data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_13_DAY_30/day-62-starting-files-coffee-and-wifi/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_13_DAY_30/day-62-starting-files-coffee-and-wifi/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_13_DAY_30/day-62-starting-files-coffee-and-wifi/templates/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_13_DAY_30/day-62-starting-files-coffee-and-wifi/templates/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_13_DAY_30/day-62-starting-files-coffee-and-wifi/templates/cafes.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_13_DAY_30/day-62-starting-files-coffee-and-wifi/templates/cafes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_13_DAY_30/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/2_13_DAY_30/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
