@@ -25,7 +25,7 @@
           {% for cafe_data in cafes[1:] %}
             <tr>
               <td>{{ cafe_data[0] }}</td>
-              <td><a href="{{ cafe_data[1] }}" target="_blank">Maps Link</a></td>
+              <td><a href='{{ cafe_data[1] }}' target="_blank">Maps Link</a></td>
               <td>{{ cafe_data[2] }}</td>
               <td>{{ cafe_data[3] }}</td>
               <td>{{ cafe_data[4] }}</td>
@@ -37,6 +37,7 @@
   	  </table>
 
       <p><a href="/">Return to index page</a></p>
+      <p><a href="/add"> Add places</a> </p>
 
     </div>
   </div>

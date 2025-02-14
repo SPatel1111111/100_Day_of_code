@@ -8,13 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9693ea89-e876-452d-9934-209dcaa98b15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2_12_DAY_29/day-61-starting-files-flask-secrets/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_13_DAY_30/day-62-starting-files-coffee-and-wifi/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_14_DAY_31/day31.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_12_DAY_29/day-61-starting-files-flask-secrets/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_12_DAY_29/day-61-starting-files-flask-secrets/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_12_DAY_29/day-61-starting-files-flask-secrets/templates/denied.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_12_DAY_29/day-61-starting-files-flask-secrets/templates/denied.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_12_DAY_29/day-61-starting-files-flask-secrets/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_12_DAY_29/day-61-starting-files-flask-secrets/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_12_DAY_29/day-61-starting-files-flask-secrets/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_12_DAY_29/day-61-starting-files-flask-secrets/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_12_DAY_29/day-61-starting-files-flask-secrets/templates/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_12_DAY_29/day-61-starting-files-flask-secrets/templates/success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_13_DAY_30/day-62-starting-files-coffee-and-wifi/cafe-data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/2_13_DAY_30/day-62-starting-files-coffee-and-wifi/cafe-data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_13_DAY_30/day-62-starting-files-coffee-and-wifi/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_13_DAY_30/day-62-starting-files-coffee-and-wifi/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_13_DAY_30/day-62-starting-files-coffee-and-wifi/templates/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_13_DAY_30/day-62-starting-files-coffee-and-wifi/templates/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_13_DAY_30/day-62-starting-files-coffee-and-wifi/templates/cafes.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_13_DAY_30/day-62-starting-files-coffee-and-wifi/templates/cafes.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -84,6 +84,7 @@
     &quot;Python.day27.executor&quot;: &quot;Run&quot;,
     &quot;Python.day29.executor&quot;: &quot;Run&quot;,
     &quot;Python.day30.executor&quot;: &quot;Run&quot;,
+    &quot;Python.day31.executor&quot;: &quot;Run&quot;,
     &quot;Python.day33.executor&quot;: &quot;Run&quot;,
     &quot;Python.day4.executor&quot;: &quot;Run&quot;,
     &quot;Python.day5.executor&quot;: &quot;Run&quot;,

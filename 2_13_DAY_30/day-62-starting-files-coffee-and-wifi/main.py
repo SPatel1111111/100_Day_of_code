@@ -4,7 +4,7 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField, SelectField
 from wtforms.validators import DataRequired, url
 import csv
-
+from config import SECRET_KEY
 '''
 Red underlines? Install the required packages first: 
 Open the Terminal in PyCharm (bottom left). 
@@ -19,7 +19,7 @@ This will install the packages from requirements.txt for this project.
 '''
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+app.secret_key=SECRET_KEY
 Bootstrap5(app)
 
 
@@ -53,7 +53,7 @@ def home():
     return render_template("index.html")
 
 
-@app.route('/add')
+@app.route('/add', methods=['GET','POST'])
 def add_cafe():
     form = CafeForm()
     if form.validate_on_submit():
