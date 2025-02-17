@@ -8,8 +8,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9693ea89-e876-452d-9934-209dcaa98b15" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/2_17_DAY_32/day-63-starting-files-library-project/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_17_DAY_32/day-63-starting-files-library-project/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_17_DAY_32/day-63-starting-files-library-project/templates/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_17_DAY_32/day-63-starting-files-library-project/templates/edit_rating.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_17_DAY_32/day-63-starting-files-library-project/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_17_DAY_32/sqlalchmey-task/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_17_DAY_32/sqlalchmey-task/new-book-collection.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_14_DAY_31/day-63-starting-files-library-project/book-collection.db" beforeDir="false" afterPath="$PROJECT_DIR$/2_14_DAY_31/day-63-starting-files-library-project/book-collection.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2_14_DAY_31/day-63-starting-files-library-project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_14_DAY_31/day-63-starting-files-library-project/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_14_DAY_31/day-63-starting-files-library-project/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_14_DAY_31/day-63-starting-files-library-project/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -120,8 +128,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/SNEHA1/ignore",
-    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "last_opened_file_path": "D:/SNEHA1/100_Day_of_code/2_17_DAY_32",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "settings.editor.splitter.proportion": "0.3058104"
   },
   "keyToStringList": {
@@ -132,11 +140,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SNEHA1\100_Day_of_code\2_17_DAY_32" />
+      <recent name="D:\SNEHA1\100_Day_of_code\2_17_DAY_32\sqlalchmey-task" />
       <recent name="D:\SNEHA1\100_Day_of_code\2_12_DAY_29" />
       <recent name="D:\SNEHA1\100_Day_of_code\2_11_DAY_28\Example" />
       <recent name="D:\SNEHA1\100_Day_of_code\2_7 _DAY_26\startbootstrap-clean-blog-gh-pages" />
-      <recent name="D:\SNEHA1\100_Day_of_code\2_4_DAY_23" />
-      <recent name="D:\SNEHA1\100_Day_of_code\30_1_DAY_20\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\SNEHA1\100_Day_of_code\2_12_DAY_29\static" />
@@ -259,8 +267,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.answers" />
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.day19" />
         <item itemvalue="Python.cipher" />
