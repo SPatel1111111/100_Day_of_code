@@ -1,3 +1,0 @@
-"hey this is the file ."
-here you can see the content of the file.new text
-new text.

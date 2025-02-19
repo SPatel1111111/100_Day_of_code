@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9693ea89-e876-452d-9934-209dcaa98b15" name="Changes" comment="">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/24_1_DAY_16/USA States Game/main.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/24_1_DAY_16/dya25_26.py" afterDir="false" />
 =======
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
 >>>>>>> Stashed changes
+=======
+      <change afterPath="$PROJECT_DIR$/2_18_DAY_33/day33.py" afterDir="false" />
+>>>>>>> temp-branch
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/23_1_DAY_15/day25.py" beforeDir="false" afterPath="$PROJECT_DIR$/23_1_DAY_15/day25.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_17_DAY_32/day-63-starting-files-library-project/instance/books.db" beforeDir="false" afterPath="$PROJECT_DIR$/2_17_DAY_32/day-63-starting-files-library-project/instance/books.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_17_DAY_32/day-63-starting-files-library-project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_17_DAY_32/day-63-starting-files-library-project/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_17_DAY_32/day-63-starting-files-library-project/templates/edit_rating.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_17_DAY_32/day-63-starting-files-library-project/templates/edit_rating.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_17_DAY_32/day-63-starting-files-library-project/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_17_DAY_32/day-63-starting-files-library-project/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -48,12 +59,16 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;Python.DAY6.executor&quot;: &quot;Run&quot;,
     &quot;Python.Menu.executor&quot;: &quot;Run&quot;,
     &quot;Python.Money_machine.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Other_Tkinter_Widgets.executor&quot;: &quot;Run&quot;,
     &quot;Python.Python Console.executor&quot;: &quot;Run&quot;,
     &quot;Python.TEST5.executor&quot;: &quot;Run&quot;,
     &quot;Python.answers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.b_j.executor&quot;: &quot;Run&quot;,
     &quot;Python.ball.executor&quot;: &quot;Run&quot;,
     &quot;Python.basic1.executor&quot;: &quot;Run&quot;,
     &quot;Python.basic10.executor&quot;: &quot;Run&quot;,
@@ -65,15 +80,25 @@
     &quot;Python.basic5.executor&quot;: &quot;Run&quot;,
     &quot;Python.basic6.executor&quot;: &quot;Run&quot;,
     &quot;Python.basic7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.c_m_2.executor&quot;: &quot;Run&quot;,
     &quot;Python.cipher.executor&quot;: &quot;Run&quot;,
+    &quot;Python.coffe_machine.executor&quot;: &quot;Run&quot;,
     &quot;Python.coffee_maker.executor&quot;: &quot;Run&quot;,
     &quot;Python.day18.executor&quot;: &quot;Run&quot;,
     &quot;Python.day19.executor&quot;: &quot;Run&quot;,
     &quot;Python.day2.executor&quot;: &quot;Run&quot;,
     &quot;Python.day21.executor&quot;: &quot;Run&quot;,
     &quot;Python.day25.executor&quot;: &quot;Run&quot;,
+    &quot;Python.day27.executor&quot;: &quot;Run&quot;,
+    &quot;Python.day29.executor&quot;: &quot;Run&quot;,
+    &quot;Python.day30.executor&quot;: &quot;Run&quot;,
+    &quot;Python.day31.executor&quot;: &quot;Run&quot;,
+    &quot;Python.day33.executor&quot;: &quot;Run&quot;,
     &quot;Python.day4.executor&quot;: &quot;Run&quot;,
     &quot;Python.day5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.day54(flask).executor&quot;: &quot;Run&quot;,
+    &quot;Python.day54.executor&quot;: &quot;Run&quot;,
+    &quot;Python.day55.executor&quot;: &quot;Run&quot;,
     &quot;Python.day7.executor&quot;: &quot;Run&quot;,
 <<<<<<< Updated upstream
     &quot;Python.dya25.executor&quot;: &quot;Run&quot;,
@@ -84,6 +109,7 @@
     &quot;Python.game.executor&quot;: &quot;Run&quot;,
     &quot;Python.game_data.executor&quot;: &quot;Run&quot;,
     &quot;Python.lovcal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;Python.main2.executor&quot;: &quot;Run&quot;,
     &quot;Python.main3.executor&quot;: &quot;Run&quot;,
@@ -95,6 +121,7 @@
     &quot;Python.practice.executor&quot;: &quot;Run&quot;,
     &quot;Python.quiz_brain.executor&quot;: &quot;Run&quot;,
     &quot;Python.scoreboard.executor&quot;: &quot;Run&quot;,
+    &quot;Python.server.executor&quot;: &quot;Run&quot;,
     &quot;Python.snake.executor&quot;: &quot;Run&quot;,
     &quot;Python.test.executor&quot;: &quot;Run&quot;,
     &quot;Python.turtle.executor&quot;: &quot;Run&quot;,
@@ -104,55 +131,47 @@
     &quot;Python.unit1.executor&quot;: &quot;Run&quot;,
     &quot;Python.unit2.executor&quot;: &quot;Debug&quot;,
     &quot;Python.unit3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.widgets.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     &quot;last_opened_file_path&quot;: &quot;D:/SNEHA1/100_Day_of_code/24_1_DAY_16&quot;,
 =======
     &quot;last_opened_file_path&quot;: &quot;D:/SNEHA1/100_Day_of_code/21_1_DAY_13&quot;,
 >>>>>>> Stashed changes
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+=======
+    &quot;last_opened_file_path&quot;: &quot;D:/SNEHA1/Feedback and Complaint Management System&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+>>>>>>> temp-branch
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.3058104&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Python&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\SNEHA1\100_Day_of_code\24_1_DAY_16" />
-      <recent name="D:\SNEHA1\100_Day_of_code\21_1_DAY_13" />
+      <recent name="D:\SNEHA1\100_Day_of_code\2_17_DAY_32" />
+      <recent name="D:\SNEHA1\100_Day_of_code\2_17_DAY_32\sqlalchmey-task" />
+      <recent name="D:\SNEHA1\100_Day_of_code\2_12_DAY_29" />
+      <recent name="D:\SNEHA1\100_Day_of_code\2_11_DAY_28\Example" />
+      <recent name="D:\SNEHA1\100_Day_of_code\2_7 _DAY_26\startbootstrap-clean-blog-gh-pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\SNEHA1\100_Day_of_code\24_1_DAY_16" />
-      <recent name="D:\SNEHA1\100_Day_of_code\23_1_DAY_15" />
-      <recent name="D:\SNEHA1\100_Day_of_code\ga" />
-      <recent name="D:\SNEHA1\100_Day_of_code\22_1_DAY_14" />
-      <recent name="D:\SNEHA1\100_Day_of_code\23_1_DAY_15\mail" />
+      <recent name="D:\SNEHA1\100_Day_of_code\2_12_DAY_29\static" />
+      <recent name="D:\SNEHA1\100_Day_of_code\2_11_DAY_27" />
+      <recent name="D:\SNEHA1\100_Day_of_code\2_7 _DAY_26\startbootstrap-clean-blog-gh-pages\templates" />
+      <recent name="D:\SNEHA1\100_Day_of_code\2_7 _DAY_26\startbootstrap-clean-blog-gh-pages\static" />
+      <recent name="D:\SNEHA1\100_Day_of_code\2_5_DAY_24\Blog App\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.answers">
-    <configuration name="Python Console" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="100_Day_of_code" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="/Python Console.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="answers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100_Day_of_code" />
       <option name="ENV_FILES" value="" />
@@ -219,12 +238,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="100_Day_of_code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1_20_DAY_12/turtle_race" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_20_DAY_12/turtle_race/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="100_Day_of_code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/28_1_DAY_18/password_manager" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/28_1_DAY_18/password_manager/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.answers" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.day19" />
         <item itemvalue="Python.cipher" />
-        <item itemvalue="Python.Python Console" />
       </list>
     </recent_temporary>
   </component>
@@ -257,6 +321,15 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/23_1_DAY_15/mail/test.py</url>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2_3_DAY_22_FLASK/flask/day54.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2_11_DAY_27/Example/main.py</url>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
