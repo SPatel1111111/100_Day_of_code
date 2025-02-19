@@ -12,7 +12,6 @@ df = pd.read_csv("50_states.csv")
 state_list = df.state.to_list()
 guessed_states =[]
 
-
 while len(guessed_states) <= 50:
     answer_state = screen.textinput(title=f"{len(guessed_states)}/50 State correct",prompt="what's the another state name??").title()
 

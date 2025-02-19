@@ -24,7 +24,7 @@ def game():
     print("number to the the guessing game.")
     print("guessing number between 1 to 100")
     answer =random.randint(1,100)
-    print(answer)
+    # print(answer)
 
     #GUESS
     turns =diff()
