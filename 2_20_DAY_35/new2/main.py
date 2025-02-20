@@ -7,12 +7,8 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
 import requests
-# "https://api.themoviedb.org/3/movie"
-# https://developers.themoviedb.org/3/search/search-movies
-MOVIE_DB_API_KEY = "ce4ade9483f83239666817be95620239"
-MOVIE_DB_INFO_URL = "https://api.themoviedb.org/3/movie"
-MOVIE_DB_SEARCH_URL = "https://api.themoviedb.org/3/search/movie"
-MOVIE_DB_IMAGE_URL = "https://image.tmdb.org/t/p/w500"
+import csv
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
 Bootstrap5(app)
@@ -54,6 +50,21 @@ class FindMovieForm(FlaskForm):
     title = StringField("Movie Title", validators=[DataRequired()])
     submit = SubmitField("Add Movie")
 
+def load_movies_from_csv():
+    movies = []
+    with open('csv_file.csv', mode='r', encoding='utf-8') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            movies.append({
+                'id': row["Ranking"],
+                'title': row['Title'],
+                'year': row['Release Date'],
+                'description': row['Overview'],
+                'rating': row['Rating'],
+                'review': row['Review'],
+                'ranking':row['Ranking']
+            })
+    return movies
 
 @app.route("/")
 def home():
@@ -67,45 +78,36 @@ def add():
     form = FindMovieForm()
     if form.validate_on_submit():
         movie_title = form.title.data
-        try:
-            response = requests.get(MOVIE_DB_SEARCH_URL, params={"api_key": MOVIE_DB_API_KEY, "query": movie_title})
-            data = response.json()["results"]
-            return render_template("select.html", options=data)
-        except requests.exceptions.ConnectionError:
-            return "connection error."
+        movies = load_movies_from_csv()
+        # Filter movies based on the title
+        filtered_movies = [movie for movie in movies if movie_title.lower() in movie['title'].lower()]
+        return render_template("select.html", options=filtered_movies)
+
     return render_template("add.html", form=form)
 
 
 @app.route("/find")
 def find_movie():
-    movie_api_id = request.args.get("id")
-    if movie_api_id:
-        movie_api_url = f"{MOVIE_DB_INFO_URL}/{movie_api_id}"
-        response = requests.get(movie_api_url, params={"api_Key": MOVIE_DB_API_KEY})
-        data = response.json()
-        print(data)
+    movie_id = request.args.get("id")
+    movies = load_movies_from_csv()
+    movie = next((m for m in movies if m['id'] == movie_id), None)
 
+    if movie:
         new_movie = Movie(
-            title=data.get("title"),
-            year=data.get("release_date","Unknown").split("-")[0],
-            img_url=f"{MOVIE_DB_IMAGE_URL}{data.get('poster_path')}",
-            description=data.get("overview")
+            title=movie['title'],
+            year=movie['year'],
+            img_url="https://image.tmdb.org/t/p/w500/tjrX2oWRCM3Tvarz38zlZM7Uc10.jpg",
+            description=movie['description'],
+            rating=movie['rating'],
+            review=movie['review'],
+            ranking=movie['ranking']
         )
         db.session.add(new_movie)
         db.session.commit()
-        return redirect(url_for("rate_movie", id=new_movie.id))
+        return redirect(url_for("home", id=new_movie.id))
+    return redirect(url_for("add"))
 
-@app.route("/movie/<int:id>")
-def movie_details(id):
-    movie_api_url = f"{MOVIE_DB_INFO_URL}/{id}"
-    response = requests.get(movie_api_url, params={"api_key": MOVIE_DB_API_KEY})
-    data = response.json()
 
-    # Check if the movie data is valid
-    if not data or 'status_code' in data and data['status_code'] != 200:
-        return "Movie not found", 404
-
-    return render_template("movie_detail.html", movie=data)
 @app.route("/edit", methods=['GET', 'POST'])
 def rate_movie():
     form = MovieRateForm()
@@ -117,7 +119,6 @@ def rate_movie():
         db.session.commit()
         return redirect(url_for("home"))
     return render_template('edit.html', movie=movie, form=form)
-
 
 @app.route("/delete")
 def delete():
